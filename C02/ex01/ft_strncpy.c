@@ -6,7 +6,7 @@
 /*   By: hugurlu <hugurlu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 12:44:11 by hugurlu           #+#    #+#             */
-/*   Updated: 2023/09/17 13:43:14 by hugurlu          ###   ########.fr       */
+/*   Updated: 2023/09/17 14:11:17 by hugurlu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	while (i < n)
 	{
-		dest[i] = '\n';
+		dest[i] = '\0';
 		i++;
 	}
 	return (dest);
